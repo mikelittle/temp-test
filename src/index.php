@@ -6,8 +6,8 @@ function add_filter( string $hook, callable $function, int $priority = 10, int $
 }
 
 echo 'Hello World!';
-syntax_error;
+
 $test = 'testing';
-echo $test ?? 'nothing';
+echo esc_html( $test ?? 'nothing' );
 
 add_filter('get_the_guid', fn() => '');
