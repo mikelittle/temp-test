@@ -2,6 +2,6 @@
 
 echo "Hello World!";
 syntax_error;
-$test = 'testing'
+$test = 'testing';
 echo $test ?? 'nothing';
 
